@@ -1,37 +1,33 @@
 <!doctype html>
 <html lang="en">
-    
-
 
 	<head>
 		<meta charset="utf-8">
 
-		<title>lightgroup</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
 
-		<meta name="description" content="Nano-optics Group at Institute for Advanced Study, Shenzhen University">
-		<meta name="author" content="Xiaoguang Li">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="reveal.js/css/reveal.css">
-		<link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-        
-
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
@@ -39,476 +35,357 @@
 	</head>
 
 	<body>
-        
 
 		<div class="reveal">
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="https://api.dujin.org/bing/1366.php">
-
-					<h2>Light Group</h2>
-                    
-                    <p style="font-size: 24px;" >@Institute for Advanced Study</p>
-                    <p style="font-size: 24px;" >Shenzhen University</p>
-                    <br>
-					<p><a href="#/1" style="color:#FFFFFF">Members</a></p>
-                    <p><a href="#/2" style="color:#FFFFFF">Grouplogs</a></p>
-                    <p><a href="#/3" style="color:#FFFFFF">Teaching</a></p>
-                    <p><a href="#/4" style="color:#FFFFFF">Publications</a></p>
-                </section>
+				<section>
+					<h1>Reveal.js</h1>
+					<h3>The HTML Presentation Framework</h3>
+					<p>
+						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+					</p>
+				</section>
 
 				<section>
-                    <p style="font-size: 30px;">
-                    <a href="#/" style="color:#FFFFFF">Home</a>&emsp;
-                    <a href="#/1">Members</a>&emsp;
-                    <a href="#/2" style="color:#FFFFFF">Grouplogs</a>&emsp;
-                    <a href="#/3" style="color:#FFFFFF">Teaching</a>&emsp;
-                    <a href="#/4" style="color:#FFFFFF">Publications</a></p>
-                    <section data-markdown style="font-size: 18px;">
-                        <script type="text/template">
-                            ## Group Members
-                            
-                            |Principal Investigator|  |
-                            |--|--|
-                            |Prof. Li, Xiaoguang（李晓光）|xgli at szu.edu.cn|
-                            |  |  |</br>
-                            
-                            |Associate Researchers |  |
-                            |--|--|
-                            |**Dr. Wang, Yu（王雨）**|yuwang at szu.edu.cn|
-                            |  |  |</br>
-                            
-                            |Postdoctoral Researchers|  |  |
-                            |--|--|--|
-                            |**Dr. Yu, Sheng（于胜）**| shengyu at szu.edu.cn|
-                            |**Dr. Xia, Lei（夏蕾）**|xialei432 at szu.edu.cn|
-                            |  |  |</br>
-                            
-                            |Graduate Students|  |
-                            |--|--|
-                            |**Xu, Feixiang（徐飞翔）**|1158367284 at qq.com|
-                            |**Hu, Yuanzhang（胡远章）**|2927368925 at qq.com|
-                            |**Wu, Hangchen（伍航辰）**|735219075 at qq.com|
-                            |  |  |</br>
-                            
-                            |Undergraduate Students|  |
-                            |--|--|
-                            |**Chen, Jingwen（陈靖文）**|chenjingwen2016 at email.szu.edu.cn|
-                            |**Chen, Wenyu（陈文昱）**|eyo657008372 at yahoo.com|
-                            |**Tang, yanbo（汤焱博）**|1140302570 at qq.com|
-                            |**Lin, Zhi（林芷）**|1123785565 at qq.com|
-                            |**Song, Yuzhen（宋誉臻）**|604865107 at qq.com|
-                            |  |  |
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 18px;">
-                        <script type="text/template">
-                            ## Group Members
-                            ### Alumni
-                            
-                            |Research Assistants|          |
-                            |--|--|
-                            |**Gao, Qiang（高强）**|Graduate student @ The U. of Texas at Austin|
-                            |**Wu, Dongmei（吴冬梅）**|新安中学|
-                            |**Tang, junyu（唐俊宇）**|Graduate student @ USTC|
-                            |  |  |</br>
-                            
-                            |Undergraduate Student|          |
-                            |--|--|
-                            |**Ji, Chengjian（冀承健）**|厦门九大软件科技有限公司|
-                            |**Li, Hongyu（李鸿宇）**|誉存科技有限公司|
-                            |**Wu, jinnan（吴锦南）**|深圳华傲数据技术有限公司|
-                            |**Zhao, Weimin（赵伟民）**|Graduate student @ Nanjing University|
-                            |**Zhu, Jie（朱杰）**|深圳科亚医疗科技有限公司|
-                            |**Fu, Yujuan（符宇娟）**||
-                            |**Hu, Zhanhao（胡展豪）**||
-                            |**Xie, chengrong（谢承融）**||
-                            |  |  |
-                            </script>
-                    </section>
-                    
-                    <section data-markdown style="font-size: 20px;">
-                        <script type="text/template">
-**Prof. Li, Xiaoguang**
-
-**EDUCATION**
-                            
-* University of Tennessee, Knoxville, Ph.D. in Physics, 2011
-* University of Science and Technology of China, B.S. in Physics, 2004
-
-**SCIENTIFIC CAREER**
-
-* 01/2016-Present:
-Assistant Professor, Institute for Advanced Study, Shenzhen University, Shenzhen, China
-* 08/2013-12/2015:
-Assistant Researcher, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China
-Visiting Scientist, University of Science and Technology of China, Hefei, China
-* 07/2011-07/2013:
-Postdoctoral Researcher, Fudan University, Shanghai, China
-Visiting Scientist, University of Science and Technology of China, Hefei, China
-* 07/2011-09/2012:
-Joint Postdoctoral Researcher, University of Tennessee, Knoxville, USA
-* 03/2013-04/2013:
-Visiting Scientist, University of Texas at Austin, USA
-* 03/2012-05/2012:
-Visiting Scientist, Harvard University, USA
-
-<!--**Invited Talks**-->
-<!---->
-<!--* "复杂发光系统中的暗激子态",-->
-<!--[中国物理学会2019秋季学术会议(CPS2019 Fall Meeting), Zhengzhou, Henan, 22/09/2019](http://www.zzu2019.cpsjournals.cn/)-->
-<!--* "Emission spectra of plasmon-exciton hybrid systems: A simple model",[The 10th International Conference on Metamaterials, Photonic Crystals and Plasmonics (META 2019), Lisbon, Portugal, 25/07/2019](http://imco2019.org/)-->
-<!--* "Luminescence of Plasmon-Exciton Hybrid Systems",[The 9th International Multidisciplinary Conference on Optofluidics (IMCO 2019), HongKong, China, 17/06/2019](https://metaconferences.org/ocs/index.php/META19/META19#.XY9VmJMzZQI)-->
-<!--* "等离激元与激子耦合体系中的新物理"[香山科学会议，纳米光子学材料, Beijing, China, 2018](http://www.xssc.ac.cn/waiwangNew/index.html#/xsscNew/homeNew)-->
-<!--* "A Quantum Description of Coupled Plasmon-Exciton Hybrid Systems",[The 4th international conference on Frontier of Plasmonics, Hefei, Anhui, China, 2016](http://fop4.ustc.edu.cn/)-->
-<!--* "Quantum Plasmonics: Dynamical Interactions Between Plasmons and Other Excitations",[The 2nd international conference on Frontier of Plasmonics, Sichuan Chengdu, China, 2012](http://nano.iphy.ac.cn/FOP2/FOP2.html)-->
-<!--**Contributed Talks**-->
-<!--* "Quantum Description of Coupled Plasmonic Systems", 5th FUDAN-USTC-NJU (FUN) WORKSHOP ON FRONTIERS OF CONDENSED MATTER PHYSICS: Novel Energy Materials and Dynamical Processes,  Suzhou, China, 2014-->
-<!--* "Enhanced Emissions within A Nanocavity Due to Dynamical Coupling of Plasmon and Molecular Luminescence", APS March meeting, Baltimore, USA, 2013-->
-<!--* "Collective Excitations in Ultrathin Magnesium Films on Silicon", APS March meeting, Boston, USA, 2012-->
-<!--* "Suppression of Landau damping in metal nanostructures via quantum size effect", APS March meeting, Dallas, USA, 2011-->
-<!--* "Pseudospin valve in bilayer graphene nanoribbons", APS March meeting, Portland, USA, 2010-->
-                                                                                                                                                                                     
-<!--**Seminars**-->
-<!---->
-<!--* "Quantum Plasmonics in Complex Systems", Wuhan University, China, 2016-->
-<!--* "Quantum Description of Coupled Plasmonic Systems",-->
-<!--* "Quantum Plasmonics", Harvard University, USA, 2012-->
-<!--* "Plasmonics Effect in Nanostructures", Fudan University, China, 2011-->
-<!--* "Plasmonics Effect in Nanostructures", Sichuan University, China, 2011-->
-<!--* "Confinement of Dirac Electrons in Graphene", University of Maryland, USA, 2010-->
-                            </script>
-                    </section>
-
+					<h2>Hello There</h2>
+					<p>
+						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+					</p>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
-                    <p style="font-size: 30px;">
-                    <a href="#/" style="color:#FFFFFF">Home</a>&emsp;
-                    <a href="#/1" style="color:#FFFFFF">Members</a>&emsp;
-                    <a href="#/2">Grouplogs</a>&emsp;
-                    <a href="#/3" style="color:#FFFFFF">Teaching</a>&emsp;
-                    <a href="#/4" style="color:#FFFFFF">Publications</a></p>
-                    <section data-markdown style="font-size: 18px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/2">2020</a>&emsp;<a href="#/2/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/2/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/2/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/2/4" style="color:#FFFFFF">2016</a>
----
-* 2020-01-13 [新闻] 课题组17级本科生 宋誉臻、林芷和庞桂健 参加 [19年国际大学生物理竞赛 (The University Physics Competition) 获得银奖 (Silver Medal)](http://www.uphysicsc.com/2019_UPC_Results.pdf).
-
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 18px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/2" style="color:#FFFFFF">2020</a>&emsp;<a href="#/2/1">2019</a>&emsp;<a href="#/2/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/2/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/2/4" style="color:#FFFFFF">2016</a>
----
-* 2019-10-23 [出访] 李晓光研究员参加 [The 9th International Workshop on Quantum Energy](http://icqd.ustc.edu.cn/quantumenergy2019/) 做邀请报告
-* 2019-10-18 [访问] 意大利 International School for Advanced Studies (SISSA), Prof. Erio Tosatti 访问我们课题组
-* 2019-09-22 [出访] 李晓光研究员参加 [中国物理学会2019秋季学术会议 (CPS Fall Meeting 2019)](http://www.zzu2019.cpsjournals.cn/) 做邀请报告
-* 2019-07-25 [出访] 李晓光研究员参加 [The 10th International Conference on Metamaterials, Photonic Crystals and Plasmonics (META 2019)](https://metaconferences.org/ocs/index.php/META19/META19#.Xa5fIpMzZTw) 做邀请报告
-* 2018-06-18 [成员] 17级本科生 林芷、宋誉臻 加入课题组
-* 2019-06-17 [出访] 李晓光研究员参加 [The 9th International Multidisciplinary Conference on Optofluidics (IMCO 2019)](http://imco2019.org/) 做邀请报告
-* 2019-06-14 [访问] 美国佛罗里达国际大学李鹤槟教授访问我们课题组
-* 2019-05-01 [成员] 于胜博士加入课题组，做博士后
-* 2019-05-01 [成员] 黄嘉媛加入课题组，做科研助理
-* 2019-02-20 [成员] 本科生唐俊宇加入课题组，做研究助理
-
-                        </script>
-                    </section>
-                    
-                    <section data-markdown style="font-size: 12px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/2" style="color:#FFFFFF">2020</a>&emsp;<a href="#/2/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/2/2">2018</a>&emsp;<a href="#/2/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/2/4" style="color:#FFFFFF">2016</a>
----
-* 2018-12-14 [讲座] [中国科学技术大学崔萍教授访问我们课题组并做题为 “Structural Control and Property Optimization of 2D Materials” 的学术报告](https://ias.szu.edu.cn/info/1020/3294.htm)
-* 2018-12-07 [讲座] [东南大学陈乾教授访问我们课题组并做题为 “二维材料的环境稳定性与保护策略” 的学术报告](https://ias.szu.edu.cn/info/1020/3236.htm)
-* 2018-11-28 [讲座] [南方科技大学黄丽教授访问我们课题组并做题为 “Searching for substrate-supported 2D topological materials” 的学术报告](https://ias.szu.edu.cn/info/1020/3217.htm)
-* 2018-11-13 [新闻] 课题组王雨博士获得2018年度中国博士后基金面上项目资助
-* 2018-11-12 [新闻] [课题组2016级本科生汤焱博获得深圳大学2017-2018学年度荔园之星](https://www1.szu.edu.cn/board/view.asp?id=380835)
-* 2018-11-07 [讲座] [武汉理工大学李能教授访问我们课题组并做题为 “新型凝聚态材料的第一性原理计算表征、理论设计与构效机理研究” 的学术报告](https://ias.szu.edu.cn/info/1020/2332.htm)
-* 2018-09-29 [讲座] [中山大学周晓祺教授访问我们课题组并做题为 “通用两比特量子处理器” 的学术报告](https://ias.szu.edu.cn/info/1020/2308.htm) [[Poster](pics/poster-zhouxiaoqi.pdf)]
-* 2018-09-14 [新闻] [高等研究院2019届本科毕业生拟推荐推免生名单公示，我们组胡远章和伍航辰两位本科生入围名单](https://www1.szu.edu.cn/board/view.asp?id=376409)
-* 2018-08-17 [新闻] 我们获得2018年国家自然科学基金面上项目资助，项目名称：等离激元与激子耦合体系中发光现象的理论研究，资助金额：63万
-* 2018-07-30 [讲座] [Pre-thermalized Space-time Crystal and Chiral Information Flow](https://ias.szu.edu.cn/info/1020/2306.htm) [[Poster](pics/poster-zhangxiaotian.pdf)]
-* 2018-07-23 [访问] 北京大学量子材料科技中心张啸天博士访问我们课题组。
-* 2018-06-26 [成员] 16级本科生陈靖文，陈文昱，汤焱博加入课题组
-* 2018-03-27 [新闻] [李晓光研究员在等离激元与激子的强耦合能量转换研究领域取得重要新进展](http://ias.szu.edu.cn/Index/articledetail?id=597)
-* 2018-03-05 [出访] 高强参加 ["APS March Meeting 2018", Los Angeles, CA, USA](http://meetings.aps.org/Meeting/MAR18/Content/3475), "Surface Plasmon Polariton Controlled De-excitation of Quantum Dot"(Oral)
-* 2018-01-09 [讲座] 玻色爱因斯坦关联用于测量核子共振态空间尺寸 [[Poster](pics/poster-heqinghua.pdf)]
-
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 18px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/2" style="color:#FFFFFF">2020</a>&emsp;<a href="#/2/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/2/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/2/3">2017</a>&emsp;<a href="#/2/4" style="color:#FFFFFF">2016</a>
----
-* 2017-12-28 [讲座] [代数几何--我的数学之路](http://ias.szu.edu.cn/Index/articledetail?id=573) [[Poster](pics/poster-xuchenyang.jpg)]
-* 2017-12-28 [访问] [北京大学北京国际数学研究中心许晨阳教授来我院访问交流](http://ias.szu.edu.cn/Index/articledetail?id=578)                                                                                * 2017-11-12 [出访] 王雨参加["The 7th International Workshop on Quantum Energy", Haikou, Hannan, China](http://icqd.ustc.edu.cn/quantumenergy2017/), "Spin switch in iron phthalocyanine on Au(111) surface by hydrogen adsorption" (Poster)
-* 2017-07-07 [成员] 15级本科生伍航辰，胡展豪，谢承融，符宇娟，胡远章加入课题组
-* 2017-07-04 [成员] 本科生高强加入课题组，做研究助理
-* 2017-07-01 [成员] 夏蕾博士加入课题组，做博士后
-* 2017-06-01 [成员] 王雨博士加入课题组，做博士后
-* 2017-03-01 [成员] 吴冬梅加入课题组，做科研助理
-                        </script>
-                    </section>
-                   <section data-markdown style="font-size: 18px; text-align: left;">
-                       <script type="text/template">
-## <a href="#/2" style="color:#FFFFFF">2020</a>&emsp;<a href="#/2/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/2/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/2/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/2/4">2016</a>
----
-* 2016-11-29 [新闻] [李晓光研究员获评学院首届优秀青年教师](http://ias.szu.edu.cn/Index/articledetailf5f2.html?id=490)
-* 2016-10-28 [讲座] [Current induced light emission in scanning tunneling microscopes](http://ias.szu.edu.cn/Index/articledetail?id=455) [[Poster](pics/poster-chengong.jpg)]
-* 2016-09-28 [讲座] Nature of the insulating ground states of low-dimentional electron systems [[Poster](pics/poster-Jun-Hyung_Cho.jpg)]
-* 2016-01-01 [成员] 14级本科生朱杰加入课题组
-* 2016-06-20 [成员] 14级本科生赵伟民，冀承健，徐飞翔，吴锦南，李鸿宇加入课题组
-* 2015-10-29 [讲座] [Quantum Plasmonics in Complex Systems](http://ias.szu.edu.cn/Index/articledetail?id=294)
-                         </script>
-                    </section>
+					<section>
+						<h2>Vertical Slides</h2>
+						<p>Slides can be nested inside of each other.</p>
+						<p>Use the <em>Space</em> key to navigate through all slides.</p>
+						<br>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section>
+						<h2>Basement Level 1</h2>
+						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+					</section>
+					<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+					</section>
 				</section>
-                <section>
-                    <p style="font-size: 30px;">
-                    <a href="#/" style="color:#FFFFFF">Home</a>&emsp;
-                    <a href="#/1" style="color:#FFFFFF">Members</a>&emsp;
-                    <a href="#/2" style="color:#FFFFFF">Grouplogs</a>&emsp;
-                    <a href="#/3">Teaching</a>&emsp;
-                    <a href="#/4" style="color:#FFFFFF">Publications</a></p>
-                    <section data-markdown style="font-size: 24px; text-align: left;">
-                        <script type="text/template">
 
-### Courses
+				<section>
+					<h2>Slides</h2>
+					<p>
+						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
+					</p>
+				</section>
 
----
+				<section>
+					<h2>Point of View</h2>
+					<p>
+						Press <strong>ESC</strong> to enter the slide overview.
+					</p>
+					<p>
+						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
+					</p>
+				</section>
 
-**Electrodynamics (Fall semester)**
-Undergraduate 3rd year
+				<section>
+					<h2>Touch Optimized</h2>
+					<p>
+						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
+					</p>
+				</section>
 
-https://pan.baidu.com/s/1dZ2O6Xfhx4YcFbC_ltVzKg
+				<section data-markdown>
+					<script type="text/template">
+						## Markdown support
 
-[^_^]:密码:1lg0
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
 
-**Solid State Physics (Spring semester)**
-Undergraduate 3rd year
+						```
+						<section data-markdown>
+						  ## Markdown support
 
-**Frontier of Material Science**
-Graduate 1st year
+						  Write content using inline or external Markdown.
+						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
+						</section>
+						```
+					</script>
+				</section>
 
-<br>
+				<section>
+					<section id="fragments">
+						<h2>Fragments</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
 
+						<aside class="notes">
+							This slide has fragments which are also stepped through in the notes window.
+						</aside>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's different types of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+					</section>
+				</section>
 
-### Projects for Undergraduates
----
+				<section id="transitions">
+					<h2>Transition Styles</h2>
+					<p>
+						You can select from different transitions, like: <br>
+						<a href="?transition=none#/transitions">None</a> -
+						<a href="?transition=fade#/transitions">Fade</a> -
+						<a href="?transition=slide#/transitions">Slide</a> -
+						<a href="?transition=convex#/transitions">Convex</a> -
+						<a href="?transition=concave#/transitions">Concave</a> -
+						<a href="?transition=zoom#/transitions">Zoom</a>
+					</p>
+				</section>
 
-**Photonic Crystal**
+				<section id="themes">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
 
-http://pan.baidu.com/s/1kVxeoyb
+				<section>
+					<section data-background="#dddddd">
+						<h2>Slide Backgrounds</h2>
+						<p>
+							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
+						</p>
+						<a href="#" class="navigate-down">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
+						</a>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
+						<h2>Image Backgrounds</h2>
+						<pre><code class="hljs">&lt;section data-background="image.png"&gt;</code></pre>
+					</section>
+					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
+						<h2>Tiled Backgrounds</h2>
+						<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+					</section>
+					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
+						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+							<h2>Video Backgrounds</h2>
+							<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+						</div>
+					</section>
+					<section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+						<h2>... and GIFs!</h2>
+					</section>
+				</section>
 
-[^_^]:密码:x7l4
+				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
+					</p>
+					<pre><code class="hljs">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+				</section>
 
-**Surface Growth**
+				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
+					<h2>Background Transitions</h2>
+					<p>
+						You can override background transitions per-slide.
+					</p>
+					<pre><code class="hljs" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+				</section>
 
-http://pan.baidu.com/s/1eSNCPZc
+				<section>
+					<h2>Pretty Code</h2>
+					<pre><code class="hljs" data-trim contenteditable>
+function linkify( selector ) {
+  if( supports3DTransforms ) {
 
-[^_^]:密码:xfwu
-                            </script>
-                    </section>
-                </section>
+    var nodes = document.querySelectorAll( selector );
 
-                <section>
-                    <p style="font-size: 30px;">
-                    <a href="#/" style="color:#FFFFFF">Home</a>&emsp;
-                    <a href="#/1" style="color:#FFFFFF">Members</a>&emsp;
-                    <a href="#/2" style="color:#FFFFFF">Grouplogs</a>&emsp;
-                    <a href="#/3" style="color:#FFFFFF">Teaching</a>&emsp;
-                    <a href="#/4">Publications</a></p>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/4">2020</a>&emsp;<a href="#/4/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/4/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/4/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/4/4" style="color:#FFFFFF">2016</a>
----
-[35] Xiaona Liu, Nuttawut Kongsuwan, Xiaoguang Li, Dongxing Zhao, Zheng-Mao Wu, Ortwin Hess, Xin-Hui Zhang, [_Tailoring the Third-Order Nonlinear Optical Property of a Hybrid Semiconductor Quantum Dot-Metal Nanoparticle: from Saturable to Fano-Enhanced Absorption_](https://doi.org), ** The Journal of Physical Chemistry Letters, in press**.
+    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
+      var node = nodes[i];
 
-                                                                                                                                                 
-[34] Yu Wang, Xiaoguang Li\*, Jinlong Yang, [_Spin-flip excitations induced by dehydrogenation in a magnetic single-molecule junction_](https://doi.org/), **The Journal of Chemical Physics, in press**.
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/4" style="color:#FFFFFF">2020</a>&emsp;<a href="#/4/1">2019</a>&emsp;<a href="#/4/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/4/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/4/4" style="color:#FFFFFF">2016</a>
----
-[33] Yun-Hang Qiu, Si-Jing Ding, Fan Nan, Qiang Wang, Kai Chen, Zhong-Hua Hao, Li Zhou, Xiaoguang Li\* and Qu-Quan Wang\*, [_Manipulating fluorescence of the exciton-plasmon hybrids in the strong coupling regime with dual resonance enhancements_](https://doi.org/10.1039/C9NR05442A), **Nanoscale 11, 22033-22041 (2019)**.
-                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                      
-[32] Xinyu Li, Qingli Lin, Jiaojiao Song, Huaibin Shen\*, Huimin Zhang, Lin Song Li, Xiaoguang Li\*, and Zuliang Du, [_Light-Emitting Diodes Based on Graded Intermediate Shell Quantum Dots with High Stability at High Brightness_](https://doi.org/10.1002/adom.201901145), **Advanced Optical Materials, in press**.
-                                                                                                                                                                                                                                     
-[31] Xingming Zeng, Shuailin Zhang, Nan Zheng, Shichen Yu, Xiaoguang Li, Masaki Ageishid, Bernard Lotz, Gengxin Liu, Yan Cao\*, [_Diversified α-phase nanostructure of isotactic polypropylene under cylindrical confinement via cross diffraction analysis_](https://doi.org/10.1016/j.polymer.2019.121647), **Polymer 179, 121647 (2019)**.
-                                                                                                                                                                                                                                                             
-[30] Feixiang Xu, Xiaoguang Li\*, Zhenyu Zhang, [_Some Recent Progresses on Quantum Plasmonics_](https://doi.org/10.7498/aps.68.20190331), **Acta Physica Sinica 68, 147103 (2019)**.
+      if( !node.className ) {
+        node.className += ' roll';
+      }
+    }
+  }
+}
+					</code></pre>
+					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
+				</section>
 
-[29] Gong Chen<sup>+</sup>, Yang Luo<sup>+</sup>, Hongying Gao, Jun Jiang, Yunjie Yu, Li Zhang, Yang Zhang, Xiaoguang Li\*, Zhenyu Zhang\*, and Zhenchao Dong\*, [_Spin-Triplet Mediated Upconversion and Crossover Behaviors in Single-Molecule Electroluminescence_](https://doi.org/10.1103/PhysRevLett.122.177401), **Physical Review Letters 122, 177401 (2019)**.
-                                                                                                                                                                                                                                                                      
-[28] Yu Wang\*, Xiaoguang Li\*, and Jinlong Yang,
-[_Electronic and magnetic properties of CoPc and FePc molecules on graphene: the substrate, defect, and hydrogen adsorption effects_](https://doi.org/10.1039/C8CP07091A), **Phys. Chem. Chem. Phys. 21, 5424-5434 (2019)**.
-                                                                                                                                      
-[27] Huaibin Shen, Qiang Gao, Yanbin Zhang, Yue Lin, Qingli Lin, Zhaohan Li, Ling Chen, Zaiping Zeng, Xiaoguang Li, Yu Jia, Shujie Wang, Zuliang Du\*, Lin Song Li\*, and Zhenyu Zhang \*, [_Visible quantum dot light-emitting diodes with simultaneous high brightness and efficiency_](https://doi.org/10.1038/s41566-019-0364-z), **Nature Photonics 13, 192-197 (2019)**.
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template" >
-## <a href="#/4" style="color:#FFFFFF">2020</a>&emsp;<a href="#/4/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/4/2">2018</a>&emsp;<a href="#/4/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/4/4" style="color:#FFFFFF">2016</a>
----
-[26] Yu Wang\*, Xiaoguang Li\*, Xiao Zheng, and Jinlong Yang, [_Manipulation of spin and magnetic anisotropy in bilayer magnetic molecular junctions_](https://doi.org/10.1039/C8CP05759A), **Phys. Chem. Chem. Phys. 20, 26396-26404 (2018)**.
-                                                                                                                                                       
-[25] Guanghui Cheng<sup>+</sup>, Dongli Wang<sup>+</sup>, Siyuan Dai, Xiaodong Fan, Fei Wu, Xiaoguang Li\*, and Changgan Zeng\*,
-[_Nano-Imaging of an Edge-Excited Plasmon Mode in Graphene_](https://doi.org/10.1039/C8NR04623A),
-**Nanoscale 10, 16314-16320 (2018)**.
-                                                             
-[24] Xiaoguang Li\*, Li Zhou, Zhonghua Hao, and Qu-Quan Wang\*,
-[_Plasmon-exciton coupling in complex systems_](https://doi.org/10.1002/adom.201800275),
-**Advanced Optical Materials 6, 1800275 (2018)**.
-                                                
-[23]. Hui-fang Wang, Gong Chen\*, Xiao-guang Li, and Zhen-chao Dong\*,
-[_Role of Nanocavity Plasmons in Tunneling Electron Induced Light Emission on and near a Molecule_](http://doi.org/10.1063/1674-0068/31/cjcp1802024),
-**Chinese Journal of Chemical Physics 31(3), 263-268 (2018)**.
+				<section>
+					<h2>Marvelous List</h2>
+					<ul>
+						<li>No order here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+						<li>Or here</li>
+					</ul>
+				</section>
 
-[22] Dongli Wang<sup>+</sup>, Xiaodong Fan<sup>+</sup>, Xiaoguang Li, Siyuan Dai, Laiming Wei, Wei Qin, Fei Wu, Huayang Zhang, Zeming Qi\*, Changgan Zeng\*, Zhenyu Zhang, and Jianguo Hou,
-[_Quantum Control of Graphene Plasmon Excitation and Propagation at Heaviside Potential Steps_](http://doi.org/10.1021/acs.nanolett.7b05085),
-**Nano Letters 18, 1373-1378 (2018)**.
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/4" style="color:#FFFFFF">2020</a>&emsp;<a href="#/4/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/4/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/4/3">2017</a>&emsp;<a href="#/4/4" style="color:#FFFFFF">2016</a>
----
-[21] Si-Jing Ding, Xiaoguang Li\*, Fan Nan, Yu-Ting Zhong, Li Zhou, Xudong Xiao, Qu-Quan Wang\*, and Zhenyu Zhang\*,
-[_Strongly Asymmetric Spectroscopy in Plasmon-Exciton Hybrid Systems due to Interference-Induced Energy Repartitioning_](http://doi.org/10.1103/PhysRevLett.119.177401),
-**Physical Review Letters 119, 177401 (2017)**.
+				<section>
+					<h2>Fantastic Ordered List</h2>
+					<ol>
+						<li>One is smaller than...</li>
+						<li>Two is smaller than...</li>
+						<li>Three!</li>
+					</ol>
+				</section>
 
+				<section>
+					<h2>Tabular Tables</h2>
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Value</th>
+								<th>Quantity</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Apples</td>
+								<td>$1</td>
+								<td>7</td>
+							</tr>
+							<tr>
+								<td>Lemonade</td>
+								<td>$2</td>
+								<td>18</td>
+							</tr>
+							<tr>
+								<td>Bread</td>
+								<td>$3</td>
+								<td>2</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
 
-[20] Yu Wang, Xiaoguang Li, Xiao Zheng, and Jinlong Yang,
-[_Spin switch in iron phthalocyanine on Au(111) surface by hydrogen adsorption_](http://doi.org/10.1063/1.4996970),
-**The Journal of Chemical Physics 147, 134701 (2017)**.
-                                                                                                                                                                                                          
-[19] Guo-Hua Zhong, Chao Zhang, Xunwang Yan, Xiaoguang Li, Zheng Du, Gexin Jing, and Cencen Ma
-[_Structural and electronic properties of potassium-doped 1,2;8,9-dibenzopentacene superconductor: comparing with doped [7]phenacenes_](http://dx.doi.org/10.1080/00268976.2016.1274439),
-**Molecular Physics 115, 4, 472-483 (2017)**
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-## <a href="#/4" style="color:#FFFFFF">2020</a>&emsp;<a href="#/4/1" style="color:#FFFFFF">2019</a>&emsp;<a href="#/4/2" style="color:#FFFFFF">2018</a>&emsp;<a href="#/4/3" style="color:#FFFFFF">2017</a>&emsp;<a href="#/4/4">2016</a>
----
-[18] Fan Nan, Si-Jing Ding, Liang Ma, Zi-Qiang Cheng, Yu-Ting Zhong, Ya-Fang Zhang, Yun-Hang Qiu, Xiaoguang Li\*, Li Zhou\*, and Qu-Quan Wang\*,
-[_Plasmon resonance energy transfer and plexcitonic solar cell_](http://doi.org/10.1039/c6nr02633h),
- **Nanoscale 8, 15071 (2016)**.
-                                                                 
-[17] Guohua Zhong, Kinfai Tse, Yiou Zhang, Xiaoguang Li, Li Huang, Chunlei Yang\*, Junyi Zhu\*, Zhi Zeng, Zhenyu Zhang, and Xudong Xiao,
-[_Induced effects by the substitution of Zn in Cu 2ZnSnX4 (X = S and Se)_](http://doi.org/10.1016/j.tsf.2016.02.005),
-**Thin Solid Films 603, 224–229 (2016)**.
-                                                                                                                                            
+				<section>
+					<h2>Clever Quotes</h2>
+					<p>
+						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
+					</p>
+					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
+						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
+					</blockquote>
+				</section>
 
-[16] Tingting Wang, Xiaoguang Li, Wenjie Li, Li Huang, Cencen Ma, Ya Cheng, Jun Cui, Hailin Luo, Guohua Zhong\*, and Chunlei Yang\*,
-[_Transition metals doped CuAlSe2 for promising intermediate band materials_](http://doi.org/10.1088/2053-1591/3/4/045905),
-**Materials Research Express 3, 045905 (2016)**.
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-## Publications
-### Before 2016
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
 
-[15] Gong Chen, Xiao-guang Li\*, and Zhen-chao Dong\*,
-[_Full Quantum Theory of Molecular Hot-Electroluminescence in Scanning Tunneling Microscope Tunnel Junctions_](http://doi.org/10.1063/1674-0068/28/cjcp1505106),
-**Chinese Journal of chemical physics 28, 552 (2015)**.
-                                                                                                                                           
+				<section>
+					<h2>Speaker View</h2>
+					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
+					<p>Press the <em>S</em> key to try it out.</p>
 
-[14] Fan Nan\+, Ya-Fang Zhang\+, Xiaoguang Li\+, Xiao-Tian Zhang, Hang Li, Xinhui Zhang, Ruibin Jiang, Jianfang Wang, Wei Zhang, Li Zhou, Jia-Hong Wang, Qu-Quan Wang\*, and Zhenyu Zhang\*,
-[_Unusual and Tunable One-Photon Nonlinearity in Gold-Dye Plexcitonic Fano Systems_](http://doi.org/10.1021/acs.nanolett.5b00413),
-**Nano Letters 15, 2705–2710 (2015)**.
-                                                                                                                                                                                                                                
-                                                                                                                                                                                                                                
-[13] Gong Chen, Xiaoguang Li, Zhenyu Zhang, and Zhenchao Dong\*,
-[_Molecular hot electroluminescence due to strongly enhanced spontaneous emission rates in a plasmonic nanocavity_](http://doi.org/10.1039/C4NR06519K),
-**Nanoscale 7, 2442-2449 (2015)**.
-                                                                                                                                                                                                                                                                                                                                                    
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+					</aside>
+				</section>
 
-[12] Wei Qin, Xiaoguang Li, Yi Xie, and Zhenyu Zhang,
-[_Reentrant paramagnetism induced by drastic reduction of magnetic couplings at surfaces of superparamagnetic nanoparticles_](http://doi.org/10.1103/PhysRevB.90.224416),
-**Physical Review B 90, 224416 (2014)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+				<section>
+					<h2>Export to PDF</h2>
+					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
+					<iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+				</section>
 
-[11] Yuan Cao, Xiaoguang Li\*, Dongli Wang, Xiaodong Fan, Xiaobo Lu, Zhenyuan Zhang, Changgan Zeng\*, and Zhenyu Zhang,
-[_Highly anisotropic hybridization, dispersion, damping, and propagation of quantum plasmons in graphene superlattices_](http://doi.org/10.1103/PhysRevB.90.245415),
-**Physical Review B 90, 245415 (2014)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
-[10] Xiaoguang Li, Ao Teng, Mustafa M Ozer, Jian Shen, Hanno H Weitering, and Zhenyu Zhang,
-[_Plasmonic excitations in ultrathin metal films on dielectric substrates_](http://doi.org/10.1088/1367-2630/16/6/065014),
-**New Journal of Physics, 16, 065014 (2014)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+				<section>
+					<h2>Global State</h2>
+					<p>
+						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
+						will be added as a class to the document element when the slide is open. This lets you
+						apply broader style changes, like switching the page background.
+					</p>
+				</section>
 
-[9] Gufeng Zhang, Xiaoguang Li\*, Jie Wang, Dimitrie Culcer, and Zhenyu Zhang\*,
-[_Quantum phase transition in graphene topological heterostructures_](http://doi.org/10.1039/C3NR05284B),
-**Nanoscale 6, 3259-3267 (2014)**.
-                            </script>
-                    </section>
-                    <section data-markdown style="font-size: 20px; text-align: left;">
-                        <script type="text/template">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-## Publications
-### Before 2016
-[8] Xiaoguang Li, Gufeng Zhang, Guangfen Wu, Hua Chen, Dimitrie Culcer, and Zhenyu Zhang,
-[_Proximity effects in topological insulator heterostructures_](http://doi.org/10.1088/1674-1056/22/9/097306),
-**Chinese Physics B 22, 097306 (2013)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-[7] Guangfen Wu, Hua Chen, Yan Sun, Xiaoguang Li, Ping Cui, Cesare Franchini, Jinlan Wang, Xing-Qiu Chen, and Zhenyu Zhang,
-[_Tuning the vertical location of helical surface states in topological insulator heterostructures via dual-proximity effects_](http://doi.org/10.1038/srep01233),
-**Scientific Reports 3, 1233 (2013)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-[6] Xiaoguang Li, Di Xiao, and Zhenyu Zhang,
-[_Landau damping of quantum plasmons in metal nanostructures_](http://doi.org/10.1088/1367-2630/15/2/023011),
-**New Journal of Physics 15, 023011(2013)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
-[5] Ruochen Li, James Englehardt, and Xiaoguang Li,
-[_A Gradient Markov Chain Monte Carlo Algorithm for Computing Multivariate Maximum Likelihood estimates and Posterior Distributions: Mixture Dose-Response Assessment_](http://doi.org/10.1111/j.1539-6924.2011.01672.x),
-**Risk Analysis 32, 2 (2012)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+				<section data-state="customevent">
+					<h2>State Events</h2>
+					<p>
+						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
+					</p>
+					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.addEventListener( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+				</section>
 
-[4] Xiaoguang Li, Zhenyu Zhang, and Di Xiao,
-[_Pseudospin valve in bilayer graphene nanoribbons_](http://doi.org/10.1103/PhysRevB.81.195402),
-**Physical Review B 81, 195402 (2010)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-[3] Ted Barnes, Xiaoguang Li, and Winston Robert,
-[_Meson emission model of Ψ → NNm charmonium strong decays_](http://doi.org/10.1103/PhysRevD.81.034025),
-**Physical Review D 81, 034025 (2010)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-[2] Ted Barnes, Xiaoguang Li, and Winston Robert,
-[_Evidence for a J/ψpp Pauli strong coupling?_](http://doi.org/10.1103/PhysRevD.77.056001),
-**Physical Review D 77, 056001 (2008)**.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-[1] Ted Barnes and Xiaoguang Li,
-[_Associated Charmonium Production in Low Energy pp Annihilation_](http://doi.org/10.1103/PhysRevD.75.054018),
-**Physical Review D 75, 054018 (2007)**.
-                            </script>
-                    </section>
-                </section>
+				<section>
+					<h2>Take a Moment</h2>
+					<p>
+						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
+					</p>
+				</section>
+
+				<section>
+					<h2>Much more</h2>
+					<ul>
+						<li>Right-to-left support</li>
+						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
+						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
+					</ul>
+				</section>
+
+				<section style="text-align: left;">
+					<h1>THE END</h1>
+					<p>
+						- <a href="http://slides.com">Try the online editor</a> <br>
+						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+					</p>
+				</section>
+
 			</div>
 
 		</div>
 
-		<script src="reveal.js/lib/js/head.min.js"></script>
-		<script src="reveal.js/js/reveal.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
 		<script>
 
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
-                width: 760,
-                height: 1000,
 				controls: true,
 				progress: true,
 				history: true,
@@ -518,12 +395,12 @@ http://pan.baidu.com/s/1eSNCPZc
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
-					{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
-					{ src: 'reveal.js/plugin/notes/notes.js', async: true }
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
 				]
 			});
 
